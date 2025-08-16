@@ -2,28 +2,9 @@
 
 <div class="container-fluid mt-5">
 
-    <!-- Nav tabs -->
-    <ul class="nav nav-tabs" id="myTab" role="tablist">
-        <li class="nav-item" role="presentation">
-        <button class="nav-link" id="nationality-tab" data-bs-toggle="tab" data-bs-target="#nationality" type="button" role="tab" aria-controls="nationality" aria-selected="true">
-            Nationality
-        </button>
-        </li>
-        <li class="nav-item" role="presentation">
-        <button class="nav-link active" id="user-tab" data-bs-toggle="tab" data-bs-target="#user" type="button" role="tab" aria-controls="user" aria-selected="false">
-            User
-        </button>
-        </li>
-    </ul>
-
-    <!-- Tab content -->
-    <div class="tab-content border border-top-0 p-3" id="myTabContent">
-        <!-- Nationality Tab -->
-        <div class="tab-pane fade" id="nationality" role="tabpanel" aria-labelledby="nationality-tab">
-            <div class="d-flex justify-content-between mb-1">
-                <h5>Nationality</h5>
-            </div>
-
+    <div class="row">
+        <div class="col-md-12">
+            <h5>Nationality</h5>
             <div class="row">
                 <div class="col-md-8">
                     <table class="table table-striped table-hover">
@@ -73,13 +54,8 @@
                 </div>
             </div>
         </div>
-
-        <!-- User Tab -->
-        <div class="tab-pane fade  show active" id="user" role="tabpanel" aria-labelledby="user-tab">
-            <div class="d-flex justify-content-between mb-1">
-                <h5>User</h5>
-            </div>
-
+        <div class="col-md-12">
+            <h5>User</h5>
             <div class="row">
                 <div class="col-md-6">
                     <table class="table table-striped table-hover">
@@ -208,4 +184,5 @@
             </div>
         </div>
     </div>
+
 </div>
