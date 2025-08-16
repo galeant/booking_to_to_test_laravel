@@ -212,4 +212,5 @@ return [
         // 'ExampleClass' => App\Example\ExampleClass::class,
     ])->toArray(),
 
+    'go_api_url' => ENV('GO_API_URL',"http://localhost:8000")
 ];
